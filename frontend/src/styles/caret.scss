@@ -48,7 +48,7 @@
   }
 
   &.block {
-    width: 0.6em;
+    width: 1em;
     border-radius: 0;
     z-index: -1;
   }
@@ -63,7 +63,8 @@
   &.block,
   &.outline,
   &.underline {
-    margin-left: 0.1em;
+    margin-left: 0.11em;
+    margin-top: 0.18em;
   }
 
   &.underline {

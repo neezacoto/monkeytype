@@ -679,6 +679,7 @@ export function setCaretStyle(
   $("#caret").removeClass("carrot");
   $("#caret").removeClass("banana");
 
+  //bookmark
   if (caretStyle == "off") {
     $("#caret").addClass("off");
   } else if (caretStyle == "default") {
